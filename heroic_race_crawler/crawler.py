@@ -73,5 +73,6 @@ def getAllLaps():
     laps = []
     for lap in lapsHTML:
         laps.append(getLapInfo(lap))
+    return laps
 
 getAllLaps()
