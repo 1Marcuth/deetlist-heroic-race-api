@@ -12,6 +12,6 @@ api.add_middleware(
     allow_headers=["*"],
 )
 
-@api.get('/laps')
+@api.get('/events/heroic-race/data')
 def laps():
     return crawler.getAllLaps()
