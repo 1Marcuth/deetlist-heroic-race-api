@@ -15,3 +15,7 @@ api.add_middleware(
 @api.get('/events/heroic-race/data')
 def laps():
     return crawler.getAllLaps()
+
+@api.get('/events/heroic-race/data-test')
+def laps():
+    return crawler.getAllLaps()
